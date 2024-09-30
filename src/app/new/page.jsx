@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
-function newPage({ params }) {
+function NewPage({ params }) {
   const router = useRouter();
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
@@ -99,4 +99,4 @@ function newPage({ params }) {
   );
 }
 
-export default newPage;
+export default NewPage;
